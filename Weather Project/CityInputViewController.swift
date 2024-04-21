@@ -66,6 +66,8 @@ class CityInputViewController: UIViewController {
         // Use viewmodel to fetch weather data before proceeding.
         weatherViewModel.fetchWeather(for: cityName)
         weatherViewModel.onDataReceived = {
+            
+            
             DispatchQueue.main.async { [weak self] in
                 guard let self = self else { return }
                 //Pass ViewModel instance to Detail ViewController
