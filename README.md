@@ -1,6 +1,4 @@
-# WeatherApp
-
-## Weather Project
+# Weather Project
 The Weather Project is an iOS application that allows users to enter a city name and retrieve current weather data using the OpenWeatherMap API.
 
 ## Features
